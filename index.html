@@ -7,11 +7,11 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./index.html" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!--navbar start-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="./index.html">
           <img
@@ -23,48 +23,41 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="./index.html"
-              >
+              <a class="nav-link active" aria-current="page" href="#">
                 Overview
               </a>
             </li>
             <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Pages
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light">
+                <li><a class="dropdown-item" href="#">Landing Pages</a></li>
+                <li><a class="dropdown-item" href="#">App Pages</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Inner Pages</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle active"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -72,29 +65,25 @@
               >
                 Components
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Another action</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+              <ul class="dropdown-menu dropdown-menu-light">
+                <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                <li><a class="dropdown-item" href="#">Wingman</a></li>
               </ul>
             </li>
           </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="text-light" href="./index.html">Sign up</a>
-              <span class="text-light">or</span>
-              <a class="text-light" href="./index.html">Sign in</a>
-            </li>
+          <ul>
+            <a class="text-light" href="">Sign up</a>
+            <span class="text-light">or</span>
+            <a class="text-light" href="">Sign in</a>
           </ul>
         </div>
       </div>
     </nav>
-
     <!--navbar end-->
+
+    <!-- main content start -->
+
+    <!-- main content end -->
 
     <!-- JavaScript Bundle with Popper -->
     <script
