@@ -52,6 +52,14 @@ small {
   margin-top: 3.4px;
 }
 
+.button-form1 {
+  padding: 0.6875rem 1.5rem;
+  background-color: #02bb75;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .label-tnc-form1 {
   padding-top: 5px;
   font-size: 10.5px;
