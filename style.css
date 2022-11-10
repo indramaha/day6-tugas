@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+/* navvar css start */
+.hero-section {
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.bg-hero {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+.hero-text {
+  width: 100%;
+  position: absolute;
+  padding: 7.5rem 0;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  margin-bottom: 0;
+}
+
+.card-form {
+  padding: 1.5rem;
+}
+
+/* navvar css end */
