@@ -42,4 +42,63 @@ form {
   padding: 1.5rem;
 }
 
+.label-input1 {
+  font-size: 12.25px;
+  margin-bottom: 7px;
+}
+
+small {
+  font-size: 10.5px;
+  margin-top: 3.4px;
+}
+
+.label-tnc-form1 {
+  padding-top: 5px;
+  font-size: 10.5px;
+}
+
+.term-condition {
+  color: #4582ec;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-section {
+    height: 930px;
+    width: 100%;
+    position: relative;
+  }
+
+  .bg-hero {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+
+  .hero-text {
+    width: 100%;
+    position: absolute;
+    padding: 7.5rem 0;
+  }
+
+  .display-3 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+
+  .lead {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+
+  form {
+    margin-bottom: 0;
+  }
+
+  .colom-text {
+    margin-bottom: 1.5rem;
+  }
+}
 /* navvar css end */
