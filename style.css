@@ -3,6 +3,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #495057;
   line-height: 1.5;
+  background-color: #f8f9fa;
 }
 
 a {
@@ -224,3 +225,123 @@ small {
 }
 
 /* intro section end*/
+
+/* workflow-section-start */
+.workflow-section {
+  padding: 72px 0px;
+  border-top: 1px solid #e9ecef;
+}
+
+.row-welcome {
+  margin-bottom: 48px;
+}
+
+.workflow-span-welcome {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+  font-weight: 500;
+  color: #adb5bd;
+}
+
+.workflow-h2-greetly {
+  margin-bottom: 24px;
+}
+
+.workflow-h2-greetly h2 {
+  font-size: 3.5rem !important;
+  font-weight: 400;
+  color: #343a40;
+}
+
+.workflow-span-anoppor {
+  margin-bottom: 24px;
+  font-size: 1.125rem;
+}
+
+.workflow-image {
+  width: 100%;
+  height: fit-content;
+}
+
+.card-workflow-ul {
+  padding: 0;
+}
+
+.card-workflow-li {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
+
+.card-workflow {
+  border: 1px solid #e9ecef;
+}
+
+.card-workflow-2 {
+  border: transparent;
+  background-color: #f8f9fa;
+}
+
+.card-body-workflow {
+  padding: 24px;
+  background-color: white;
+}
+
+.card-body-workflow-2 {
+  padding: 24px;
+  background-color: transparent;
+}
+.card-body-workflow-bg {
+  margin-right: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.card-body-workflow-1 {
+  font-size: 28px;
+  width: 48px;
+  height: 48px;
+  background-color: #4582ec;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.card-icon-workflow-2 {
+  font-size: 28px;
+  width: 48px;
+  height: 48px;
+  background-color: #ced4da;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.card-body-workflow-h5 {
+  margin-bottom: 12px;
+  color: #343a40;
+}
+
+.card-body-workflow-span {
+  color: #495057;
+}
+
+@media only screen and (max-width: 884px) {
+  .card-workflow-text {
+    margin-top: 48px;
+  }
+}
+/* workflow-section-end */
