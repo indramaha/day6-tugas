@@ -188,7 +188,7 @@ small {
   position: relative;
 }
 
-.intro-image1 img {
+.intro-image1-img {
   width: 100%;
   height: fit-content;
 }
@@ -261,7 +261,7 @@ small {
   margin-bottom: 24px;
 }
 
-.workflow-h2-greetly h2 {
+.workflow-h2-greetly-h2 {
   font-size: 3.5rem !important;
   font-weight: 400;
   color: #343a40;
@@ -375,11 +375,11 @@ small {
 }
 
 .synced-image-bg {
-  width: fit-content;
+  width: 100%;
   height: 100%;
 }
 
-.synced-image-bg img {
+.synced-image-bg-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -395,7 +395,7 @@ small {
   margin-bottom: 1.5rem;
 }
 
-.synced-title-text span {
+.synced-title-text-span {
   color: #495057;
   font-weight: 400;
   font-size: 1.25rem;
@@ -404,11 +404,8 @@ small {
 .synced-hr-short {
   width: 3rem;
   margin: 1.5rem 0px;
-}
-
-.synced-hr-short hr {
-  border: 0;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #e9ecef !important;
+  opacity: 100%;
 }
 
 .synced-ul {
@@ -432,21 +429,77 @@ small {
   margin-bottom: 0.75rem;
 }
 
-.synced-li-title h6 {
+.synced-li-title-h6 {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 500;
 }
 
-.synced-li-desc p {
+.synced-li-desc-p {
   font-size: 0.875rem;
   line-height: 1.5;
   font-weight: 400;
   color: #495057;
 }
 
-.synced-a-under-ul a {
+.synced-a-under-ul-a {
   font-size: 0.875rem;
   color: #4582ec;
 }
 /* synced-section-end */
+
+/* aio-section-start */
+.aio-section {
+  background-color: white;
+}
+
+.aio-image-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.aio-image-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aio-col-2 {
+  padding: 6rem 0px;
+}
+
+.aio-col-2-1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aio-col-2-1-title {
+  margin-bottom: 1.5rem;
+}
+
+.aio-col-2-1-title-h3 {
+  color: #343a40;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  line-height: 3rem;
+  font-size: 2.5rem;
+}
+
+.aio-col-2-1-desc {
+  margin-bottom: 1.5rem;
+}
+
+.aio-col-2-1-desc-span {
+  color: #495057;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+}
+
+.aio-hr {
+  width: 3rem;
+  margin: 1.5rem 0px;
+  border-top: 1px solid #e9ecef !important;
+  opacity: 100%;
+}
+/* aio-section-end */
